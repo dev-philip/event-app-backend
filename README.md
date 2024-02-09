@@ -2,6 +2,11 @@
 
 Course Project for COP4710
 
+# Github Repository
+
+https://github.com/dev-philip/event-app-backend
+https://docs.google.com/document/d/1ynONMdP0S2a1tgvAOk-ozcSMURndsDTdifKDlSrmuqE/edit
+
 ## HOW TO RUN THIS APPLICATION
 
 1. Download NVM (Node version Manager) from this link `https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe`
@@ -10,3 +15,21 @@ Course Project for COP4710
 4. Clone repository `https://github.com/dev-philip/event-app-backend.git`
 5. Create a new file in the root directory called `.env` and copy the content in this url `https://docs.google.com/document/d/1ynONMdP0S2a1tgvAOk-ozcSMURndsDTdifKDlSrmuqE/edit?usp=sharing`
 6. Navigate to the root folder and run this command `npm install` then run `npm start`. this will start the backend server for the application
+
+# Create migrations
+
+npx knex migrate:make create_admin_user_table
+
+# Run migrations
+
+npx knex migrate:latest
+npx knex migrate:rollback
+npx knex migrate:status
+
+# Run seed data (if you have seed files)
+
+npx knex seed:run
+
+## Project repository
+
+https://github.com/dev-philip/event-app-backend.git
