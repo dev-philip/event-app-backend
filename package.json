@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon",
     "build": "rm -rf build && prettier --write src/ && tsc",
-    "build:dev": "NODE_ENV=development tsc",
+    "build:dev": "ts-node ./src/app.ts NODE_ENV=development",
     "build:prod": "NODE_ENV=production tsc"
   },
   "keywords": [],

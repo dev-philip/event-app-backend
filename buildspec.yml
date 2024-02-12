@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Deployment started on `date`
+      # Create a directory for your project (if it doesn't exist)
+      # - mkdir -p /home/ubuntu/project
+      # Clone the repository into the specified directory
+      # - git clone https://github.com/dev-philip/event-app-backend.git /home/ubuntu/project
+
+      # - echo Syncing S3 Content
+      # Copy additional files from s3bucket (e.g., config.json and .env) into the project directory
+      # - aws s3 cp s3://your-bucket-name/config.json /home/ubuntu/project/config.json
+      # - aws s3 cp s3://your-bucket-name/.env /home/ubuntu/project/config.json
+  build:
+    commands:
+      - echo I got to the build stage
+      - echo exiting the build stage
+  post_build:
+    commands:
+      - echo Deployment completed on `date`
