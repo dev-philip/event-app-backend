@@ -8,6 +8,9 @@ phases:
   build:
     commands:
       - echo I got to the build stage
+      - mkdir event-app-backend
+      - aws s3 cp s3://event-backend-config-data/config.json event-app-backend/
+      - aws s3 cp s3://event-backend-config-data/.env event-app-backend/
       - echo exiting the build stage
   post_build:
     commands:
