@@ -5,7 +5,7 @@
 sudo chown -R $(whoami) /home/ubuntu/event-app-backend
 
 #start the application
-cd event-app-backend/
+#cd event-app-backend/
 
 #remove node module 
 #sudo rm -rf node_modules
