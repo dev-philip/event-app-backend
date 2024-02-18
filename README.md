@@ -38,4 +38,4 @@ https://github.com/dev-philip/event-app-backend.git
 
 nano /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
 
-sudo /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
+sudo rm /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
