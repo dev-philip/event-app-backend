@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Create a directory for your project (if it doesn't exist)
-#mkdir -p /home/ubuntu/project
-#pm2 stop all
+#Stop pm2 Process
+pm2 stop all
 
-
-#rm -rf /home/ubuntu/project/*
+# Clean up old Artifact
+sudo rm -rf /home/ubuntu/event-app-backend
