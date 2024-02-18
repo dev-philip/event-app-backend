@@ -8,10 +8,10 @@ sudo chown -R $(whoami) /home/ubuntu/event-app-backend
 cd event-app-backend/
 
 #remove node module 
-sudo rm -rf node_modules
+#sudo rm -rf node_modules
 
 #install app packages
-npm install
+#npm install
 
 #use pm2 to start the node js application
-pm2 start npm --name eventapp -- start
+#pm2 start npm --name eventapp -- start
