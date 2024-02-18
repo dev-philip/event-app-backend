@@ -33,3 +33,9 @@ npx knex seed:run
 ## Project repository
 
 https://github.com/dev-philip/event-app-backend.git
+
+## how to read codeploy log
+
+nano /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
+
+sudo /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log

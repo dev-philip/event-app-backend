@@ -13,4 +13,8 @@ sudo rm -rf /home/ubuntu/event-app-backend/tmpappconfig
 sudo rm -rf /home/ubuntu/event-app-backend/node_modules
 
 #This command is used to change the ownership of the /home/ubuntu/event-app-backend directory and all its contents recursively
-sudo chown -R $(whoami) /home/ubuntu/event-app-backend
+#sudo chown -R $(whoami) /home/ubuntu/event-app-backend
+sudo chown -R ubuntu /home/ubuntu/event-app-backend
+
+#install npm modules
+npm --prefix /home/ubuntu/event-app-backend install
