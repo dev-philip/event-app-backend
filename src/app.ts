@@ -43,7 +43,7 @@ app.use(baseAPi, BaseRoutes);
 
 // Define a home route
 app.get('/', (req: Request, res: Response) => {
-    res.send('Welcome to event app backend for Course project COP4710 !');
+    res.send('Welcome to event app backend for Course project COP4710 CI/CD!');
 });
 
 
