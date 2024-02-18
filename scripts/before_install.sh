@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ls
 #Stop pm2 Process
 #pm2 stop all
 
