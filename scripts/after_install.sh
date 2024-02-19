@@ -17,8 +17,11 @@ sudo rm -rf /home/ubuntu/event-app-backend/node_modules
 sudo chown -R ubuntu /home/ubuntu/event-app-backend
 
 
+ls > output.txt 2> error.txt
+
+pwd > output2.txt 2>error2.txt
 
 #install npm modules
 #npm install
 #npm --prefix /home/ubuntu/event-app-backend install
-npm --prefix /home/ubuntu/event-app-backend install 2>/tmp/npm_error.log
+#npm --prefix /home/ubuntu/event-app-backend install 2>/tmp/npm_error.log
