@@ -18,6 +18,5 @@ sudo chown -R ubuntu /home/ubuntu/event-app-backend
 
 
 
-#install npm modules
-npm install
+
 #npm --prefix /home/ubuntu/event-app-backend install
