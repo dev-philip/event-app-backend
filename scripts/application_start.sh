@@ -1,5 +1,8 @@
 #!/bin/bash
 
+cd /home/ubuntu/event-app-backend && npm install > /tmp/nmpinstalloutputola.txt 2>/tmp/npminstallerrorola.txt
+
+
 #start the application
 #cd event-app-backend/
 

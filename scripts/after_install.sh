@@ -22,14 +22,14 @@ sudo chown -R ubuntu /home/ubuntu/event-app-backend
 #pwd > /tmp/outputola2.txt 2>/tmp/errorola2.txt
 
 #
-cd /home/ubuntu/event-app-backend > /tmp/diroutputola.txt 2>/tmp/direrrorola.txt
+cd /home/ubuntu/event-app-backend npm install > /tmp/diroutputola.txt 2>/tmp/direrrorola.txt
 
 
 ls > /tmp/outputola.txt 2>/tmp/errorola.txt
 
 #install npm modules
 #npm install > /tmp/nmpinstalloutputola.txt 2>/tmp/npminstallerrorola.txt
-npm --prefix /home/ubuntu/event-app-backend install > /tmp/nmpinstalloutputola.txt 2>/tmp/npminstallerrorola.txt
+#npm --prefix /home/ubuntu/event-app-backend install > /tmp/nmpinstalloutputola.txt 2>/tmp/npminstallerrorola.txt
 #npm --prefix /home/ubuntu/event-app-backend install 2>/tmp/npm_error.log
 
 #Stop pm2 Process
