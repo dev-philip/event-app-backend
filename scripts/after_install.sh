@@ -17,11 +17,17 @@ sudo rm -rf /home/ubuntu/event-app-backend/node_modules
 sudo chown -R ubuntu /home/ubuntu/event-app-backend
 
 
-ls > /tmp/outputola.txt 2>/tmp/errorola.txt
+#ls > /tmp/outputola.txt 2>/tmp/errorola.txt
 
-pwd > /tmp/outputola2.txt 2>/tmp/errorola2.txt
+#pwd > /tmp/outputola2.txt 2>/tmp/errorola2.txt
+
+#
+cd /home/ubuntu/event-app-backend > /tmp/diroutputola.txt 2>/tmp/direrrorola.txt
 
 #install npm modules
-#npm install
+npm install > /tmp/nmpinstalloutputola.txt 2>/tmp/npminstallerrorola.txt
 #npm --prefix /home/ubuntu/event-app-backend install
 #npm --prefix /home/ubuntu/event-app-backend install 2>/tmp/npm_error.log
+
+#Stop pm2 Process
+#pm2 stop all > /tmp/pm2outputola.txt 2>/tmp/pm2errorola.txt
