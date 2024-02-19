@@ -43,3 +43,6 @@ sudo touch codedeploy-agent-deployments.log
 nano /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
 
 sudo rm /opt/codedeploy-agent/deployment-root/deployment-logs/codedeploy-agent-deployments.log
+
+npm install 2>/tmp/npm_error.log
+After running the deployment, check the /tmp/npm_error.log file for any error messages that might provide clues to the issue

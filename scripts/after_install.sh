@@ -17,9 +17,9 @@ sudo rm -rf /home/ubuntu/event-app-backend/node_modules
 sudo chown -R ubuntu /home/ubuntu/event-app-backend
 
 
-ls > output.txt 2> error.txt
+ls > /tmp/outputola.txt 2>/tmp/errorola.txt
 
-pwd > output2.txt 2>error2.txt
+pwd > /tmp/outputola2.txt 2>/tmp/errorola2.txt
 
 #install npm modules
 #npm install
