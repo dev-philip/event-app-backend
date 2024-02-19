@@ -16,8 +16,7 @@ sudo rm -rf /home/ubuntu/event-app-backend/node_modules
 #sudo chown -R $(whoami) /home/ubuntu/event-app-backend
 sudo chown -R ubuntu /home/ubuntu/event-app-backend
 
-#
-cd event-app-backend
+
 
 #install npm modules
 #npm --prefix /home/ubuntu/event-app-backend install

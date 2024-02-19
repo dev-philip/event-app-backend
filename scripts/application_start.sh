@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-
+#
+cd event-app-backend
 
 #start the application
 #cd event-app-backend/
