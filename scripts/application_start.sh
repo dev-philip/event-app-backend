@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ubuntu/event-app-backend && npm install > /tmp/nmpinstalloutputola.txt 2>/tmp/npminstallerrorola.txt
+#cd /home/ubuntu/event-app-backend && npm install > /tmp/nmpinstalloutputola.txt 2>/tmp/npminstallerrorola.txt
 
 
 #start the application
@@ -11,4 +11,4 @@ cd /home/ubuntu/event-app-backend && npm install > /tmp/nmpinstalloutputola.txt 
 #npm install
 
 #use pm2 to start the node js application
-#pm2 start npm --name eventapp -- start
+pm2 start npm --name eventapp -- start > /tmp/pm2startoutputola.txt 2>/tmp/pm2starterrorola.txt

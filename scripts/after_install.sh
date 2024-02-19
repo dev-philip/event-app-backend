@@ -10,7 +10,7 @@ sudo cp -a /home/ubuntu/event-app-backend/tmpappconfig/. /home/ubuntu/event-app-
 sudo rm -rf /home/ubuntu/event-app-backend/tmpappconfig
 
 #remove node module 
-sudo rm -rf /home/ubuntu/event-app-backend/node_modules
+#sudo rm -rf /home/ubuntu/event-app-backend/node_modules
 
 #This command is used to change the ownership of the /home/ubuntu/event-app-backend directory and all its contents recursively
 #sudo chown -R $(whoami) /home/ubuntu/event-app-backend
@@ -33,4 +33,4 @@ ls > /tmp/outputola.txt 2>/tmp/errorola.txt
 #npm --prefix /home/ubuntu/event-app-backend install 2>/tmp/npm_error.log
 
 #Stop pm2 Process
-#pm2 stop all > /tmp/pm2outputola.txt 2>/tmp/pm2errorola.txt
+pm2 stop all > /tmp/pm2outputola.txt 2>/tmp/pm2errorola.txt
